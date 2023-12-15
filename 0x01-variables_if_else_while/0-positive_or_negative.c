@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - Entry point of the program
- * 
+ *
  * Description: This program generates a random number and prints whether
  * the number is positive, zero, or negative.
  *
