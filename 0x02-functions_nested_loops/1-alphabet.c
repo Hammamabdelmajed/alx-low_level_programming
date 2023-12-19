@@ -2,7 +2,8 @@
 /**
  * print_alphabet - Prints the alphabet in lowercase
  * print alphabet in lowercase
- * Description: this function uses a loop to interate through ASCII values of the lowercase.
+ * Description: this function uses a loop to interate through ASCII
+ * values of the lowercase.
  * alphabet
  * Return: this function does not return a value
  */
