@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Prints the alphabet in lowercase
  * print alphabet in lowercase
- * Description: Prints "_putchar", followed by a new line.
- *
- * Return: Always 0 (Success)
+ * Description: this function uses a loop to interate through ASCII values of the lowercase.
+ * alphabet
+ * Return: this function does not return a value
  */
 void print_alphabet(void)
 {
