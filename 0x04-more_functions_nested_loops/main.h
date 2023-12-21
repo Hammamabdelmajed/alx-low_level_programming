@@ -18,4 +18,5 @@ void print_number(int n);
 void print_number_rec(int c);
 int _isupper(int c);
 int _isdigit(int c);
+int mul(int a, int b);
 #endif /* MAIN_H */
