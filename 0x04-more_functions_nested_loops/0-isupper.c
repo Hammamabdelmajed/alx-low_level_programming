@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _islupper - checks for upper case characte
+* _isupper - checks for upper case characte
 * @c: the character to check
 * Description: This function checks if the ASCII value of `c` falls within the
 * range of uppercase letters (from 'A' to 'Z'). If it does, the function
