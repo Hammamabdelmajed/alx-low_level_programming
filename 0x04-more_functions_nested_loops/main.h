@@ -17,4 +17,5 @@ void print_to_98(int n);
 void print_number(int n);
 void print_number_rec(int c);
 int _isupper(int c);
+int _isdigit(int c);
 #endif /* MAIN_H */
