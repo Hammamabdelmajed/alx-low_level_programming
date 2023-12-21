@@ -2,32 +2,33 @@
 #include <stdio.h>
 /**
  * print_sign - prints the sign of a number
- * @n: the number to check
+ * @r: the number to check
  *
- * Description: This function checks if the number `n` is greater than, 
+ * Description: This function checks if the number `r` is greater than,
  * less than, or equal to zero.
- * If `n` is greater than zero, the function returns 1 and prints '+'.
- * If `n` is zero, the function returns 0 and prints '0'.
- * If `n` is less than zero, the function returns -1 and prints '-'.
+ * If `r` is greater than zero, the function returns 1 and prints '+'.
+ * If `r` is zero, the function returns 0 and prints '0'.
+ * If `r` is less than zero, the function returns -1 and prints '-'.
  *
- * Return: Returns 1 and prints '+' if n is greater than zero,
- * returns 0 and prints '0' if n is zero,
- * returns -1 and prints '-' if n is less than zero
+ * Return: Returns 1 and prints '+' if r is greater than zero,
+ * returns 0 and prints '0' if r is zero,
+ * returns -1 and prints '-' if r is less than zero
  */
-int print_sign(int r) {
-if(r > 0)
+int print_sign(int r)
 {
-_putchar('+');
-return 1;
+if (r > 0)
+{
+_putchar ('+');
+return (1);
 }
-else if(r == 0)
+else if (r == 0)
 {
-_putchar('0');
-return 0;
+_putchar ('0');
+return (0);
 }
 else
 {
-_putchar('-');
-return -1;
+_putchar ('-');
+return (-1);
 }
 }
