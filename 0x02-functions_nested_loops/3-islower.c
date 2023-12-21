@@ -2,9 +2,9 @@
 #include <ctype.h>
 /**
  * _islower - checks if the letter is lowercase or not
- * return 1 if yes and 0 if not 
+ * return 1 if yes and 0 if not
  * Description: this function uses a loop to interate through ASCII
- * values of the lowercase.
+ * values of the lowercase. using c as parameter 
  * alphabet
  * Return: this function does not return a value
  */
@@ -14,7 +14,7 @@ if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
-else 
+else
 {
 return (0);
 }
