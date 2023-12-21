@@ -7,7 +7,7 @@
 * returns 1, indicating that the character is uppercase. Otherwise,
 * it returns 0.
 * This function only works for ASCII characters.
-* Return: Returns 1 if c is uppercase, 0 otherwise   
+* Return: Returns 1 if c is uppercase, 0 otherwise
 */
 int _isupper(int c)
 {
