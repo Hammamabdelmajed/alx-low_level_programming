@@ -19,11 +19,11 @@ if (i % 3 == 0 && i % 5 == 0)
 {
 printf("%d FizzBuzz ", i);
 }
-else if (i % 3)
+else if (i % 3 == 0)
 {
 printf("%d Fizz ", i);
 }
-else if (i % 5)
+else if (i % 5 == 0)
 {
 printf("%d Buzz ", i);
 }
