@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - prints the numbers from 0 to 9, except 2 and 4
  * Description: This function prints all single digit numbers from 0 to 9,
- * each followed by a new line, except for 2 and 4. The function uses the 
+ * each followed by a new line, except for 2 and 4. The function uses the
  * _putchar function to print each number and the new line character.
  * Return: This is a void function so does not return anything
  */
