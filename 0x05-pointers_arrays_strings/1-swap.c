@@ -1,4 +1,4 @@
-/*
+/**
  * swap_int - swaps the values of two int pointers
  * @a: a pointer to an int
  * @b: a pointer to an int
