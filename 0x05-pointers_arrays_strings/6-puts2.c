@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * pruts_2 - Prints every other character of a string,
+ * pruts2 - Prints every other character of a string,
  * starting with the first character, followed by a new line.
  * @s: The string to be printed.
  * Return: void.
