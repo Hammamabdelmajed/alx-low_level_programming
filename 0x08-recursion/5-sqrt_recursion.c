@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include "main.h"
 /**
  *  * _sqrt_recursion - a function that
  *  returns the natural square root of a number
@@ -11,7 +13,7 @@
  *         * Return: the natural square root of n,
  *    or -1 if n does not have a natural square root
  */
-int _sqrt_recursion(int n, int i)
+int _sqrt_1(int n, int i)
 {
 if (i * i > n)
 {
@@ -23,11 +25,11 @@ return (i);
 }
 else
 {
-return (_sqrt_recursion(n, i + 1));
+return (_sqrt_1(n, i + 1));
 }
 }
 /**
- *  * sqrt - a wrapper function for _sqrt_recursion
+ *  * sqrt_1 - a wrapper function for _sqrt_recursion
  *   * @n: the number to calculate the square root of
  *    *
  *     * Description: This function checks
@@ -39,7 +41,7 @@ return (_sqrt_recursion(n, i + 1));
  *         * Return: the natural square root of n,
  *     or -1 if n does not have a natural square root
  */
-int sqrt(int n)
+int _sqrt_recursion(int n)
 {
 if (n < 0)
 {
@@ -47,6 +49,6 @@ return (-1);
 }
 else
 {
-return (_sqrt_recursion(n, 0));
+return (_sqrt_1(n, 0));
 }
 }
