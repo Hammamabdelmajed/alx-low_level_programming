@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *  * _sqrt_recursion - a function that
+ *  * _sqrt_1 - a function that
  *  returns the natural square root of a number
  *   * @n: the number to calculate the square root of
  *    * @i: the current guess of the square root
@@ -29,7 +29,7 @@ return (_sqrt_1(n, i + 1));
 }
 }
 /**
- *  * sqrt_1 - a wrapper function for _sqrt_recursion
+ *  * _sqrt_recursion - a wrapper function for _sqrt_recursion
  *   * @n: the number to calculate the square root of
  *    *
  *     * Description: This function checks
